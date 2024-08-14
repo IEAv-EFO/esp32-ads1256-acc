@@ -27,5 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-esp32_ads1256-backups/*
-gerber_files/*
+esp32_ads1256-backups/**
+gerber_files/**
+replicate_layout.log
