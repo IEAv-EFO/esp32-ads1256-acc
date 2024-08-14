@@ -1,0 +1,3 @@
+[submodule "electronic-components"]
+	path = electronic-components
+	url = https://github.com/IEAv-EFO/electronic-components.git
