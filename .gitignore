@@ -27,5 +27,4 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-# backup file
-*.zip
+esp32_ads1256-backups/**
