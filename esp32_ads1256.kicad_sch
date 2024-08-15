@@ -2426,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 36.83) (xy 85.09 50.8)
+			(xy 85.09 35.56) (xy 85.09 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 36.83) (xy 85.09 36.83)
+			(xy 69.85 35.56) (xy 85.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3231,7 +3231,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "18pF"
 			(at 224.79 82.5499 0)
 			(effects
 				(font
@@ -3433,7 +3433,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "18pF"
 			(at 213.36 82.5499 0)
 			(effects
 				(font
@@ -4309,7 +4309,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "951fe237-0d62-4ba4-a629-2fbe0a2a913c")
 		(property "Reference" "C9"
 			(at 85.09 35.5601 0)
@@ -5521,6 +5520,68 @@
 		)
 	)
 	(sheet
+		(at 52.07 33.02)
+		(size 17.78 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35ef7b91-d09f-426d-ac89-9a0ac0c0fd54")
+		(property "Sheetname" "reference_voltage"
+			(at 52.07 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_reference.kicad_sch"
+			(at 52.07 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "vrefp" output
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90ce128c-bda3-4ce8-9631-e53bb919cbc9")
+		)
+		(pin "vrefn" output
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6af79075-fff3-4aeb-ad6b-de30131088ea")
+		)
+		(instances
+			(project "esp32_ads1256"
+				(path "/dbf90267-57f9-4f5a-8904-b91a6fafdaf7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 74.93)
 		(size 13.97 5.08)
 		(exclude_from_sim no)
@@ -5734,68 +5795,6 @@
 			(project "esp32_ads1256"
 				(path "/dbf90267-57f9-4f5a-8904-b91a6fafdaf7"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 34.29)
-		(size 16.51 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fd27ffa8-08fc-490f-b171-3a7361bbf7dd")
-		(property "Sheetname" "voltage_reference_buffer"
-			(at 47.498 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "vfb.kicad_sch"
-			(at 52.07 29.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "vrefp" output
-			(at 69.85 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "79b7b522-6769-4448-8285-42d0ff1f492f")
-		)
-		(pin "vrefn" output
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b1151191-1a9d-42f3-b980-cbc5b836b11d")
-		)
-		(instances
-			(project "esp32_ads1256"
-				(path "/dbf90267-57f9-4f5a-8904-b91a6fafdaf7"
-					(page "2")
 				)
 			)
 		)

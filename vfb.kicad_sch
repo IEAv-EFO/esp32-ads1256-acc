@@ -264,6 +264,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Reference_Voltage:ADR441xRZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.032 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADR441xRZ"
+				(at 6.858 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 22.352 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adr440_441_443_444_445.pdf"
+				(at 53.594 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.5V Voltage Reference, Ultraprecision, Low Noise, SOIC-8"
+				(at 30.734 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "voltage reference Ultraprecision Low Noise"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADR441xRZ_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "V_{IN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "V_{OUT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "TRIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADR441xRZ_1_1"
+				(pin no_connect line
+					(at -5.08 2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "opa350:OPA350UA"
 			(pin_names
 				(offset 0.254)
@@ -878,75 +1104,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 222.25 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01d2ccde-603f-46ca-8533-c367caad776a")
-	)
-	(junction
-		(at 242.57 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c63f4c4-af71-4794-bde2-7cdb57bcc9e2")
-	)
-	(junction
-		(at 200.66 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f4ba009-5097-4ffc-8381-62e730917464")
-	)
-	(junction
-		(at 242.57 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "328f4e23-b3f4-4e20-94cd-5674c3f5bbf2")
-	)
-	(junction
-		(at 86.36 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bb02350-2b9f-4d38-aea0-4141cc7a6416")
-	)
-	(junction
-		(at 222.25 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6197b67a-38df-4386-aefd-9f846c99f9e5")
-	)
-	(junction
-		(at 189.23 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab6e29e1-80d5-4109-b9f6-2d288093d31f")
-	)
-	(junction
-		(at 166.37 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad096293-1379-4943-bcee-70cd05bc2b7b")
-	)
-	(junction
-		(at 179.07 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0e805d-9b0a-48ee-95b4-b12819095408")
-	)
-	(junction
-		(at 232.41 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4b43c6e-9ee3-4bbb-9a63-a0fd3dcd0d23")
-	)
-	(junction
-		(at 232.41 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f24ab1b6-f3d2-41cd-9e4b-7bd467b5a76a")
-	)
 	(wire
 		(pts
-			(xy 219.71 104.14) (xy 222.25 104.14)
+			(xy 219.71 104.14) (xy 248.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 96.52) (xy 219.71 96.52)
+			(xy 219.71 96.52) (xy 248.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -986,23 +1146,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 179.07 104.14)
+			(xy 162.56 104.14) (xy 212.09 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3dc56734-e574-4f46-88a0-d9003e2e4100")
-	)
-	(wire
-		(pts
-			(xy 242.57 96.52) (xy 232.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c688ff9-c486-4fc6-95dd-a20c80d6de22")
 	)
 	(wire
 		(pts
@@ -1016,53 +1166,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 166.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6087aa5a-74f9-4408-b04f-d7889fbc409a")
-	)
-	(wire
-		(pts
-			(xy 86.36 104.14) (xy 101.6 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa36905-a3f3-4ba2-a971-d1a9227a413e")
-	)
-	(wire
-		(pts
-			(xy 232.41 96.52) (xy 222.25 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83babcd5-4536-4df0-b356-cad791f3707b")
-	)
-	(wire
-		(pts
-			(xy 166.37 101.6) (xy 166.37 100.33)
+			(xy 166.37 91.44) (xy 166.37 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84559710-7fd9-45ed-b7de-1f74a6c41cd1")
-	)
-	(wire
-		(pts
-			(xy 242.57 104.14) (xy 248.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c03d7c-6eb9-42c5-a6c4-f39c77bfccd7")
 	)
 	(wire
 		(pts
@@ -1076,16 +1186,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 200.66 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bae6cff-3edc-45d6-b758-5b492e29c75e")
-	)
-	(wire
-		(pts
 			(xy 101.6 101.6) (xy 97.79 101.6)
 		)
 		(stroke
@@ -1093,36 +1193,6 @@
 			(type default)
 		)
 		(uuid "8bc852cd-ae4f-4ee5-806e-75b777c6472c")
-	)
-	(wire
-		(pts
-			(xy 232.41 104.14) (xy 242.57 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9af8e9c3-0ef4-49e7-8613-5e3813dfba3e")
-	)
-	(wire
-		(pts
-			(xy 200.66 104.14) (xy 212.09 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a683af91-aa83-473b-acba-95af0ec76c11")
-	)
-	(wire
-		(pts
-			(xy 242.57 96.52) (xy 248.92 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6dc250d-4731-43a2-b4ea-6f54c3b1576f")
 	)
 	(wire
 		(pts
@@ -1156,33 +1226,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 104.14) (xy 232.41 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e30d66-70e4-49e7-9bdc-b3c422b4d421")
-	)
-	(wire
-		(pts
-			(xy 83.82 104.14) (xy 86.36 104.14)
+			(xy 83.82 104.14) (xy 101.6 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1628c2a-7a4c-442e-81f7-dcccbe0312d7")
-	)
-	(wire
-		(pts
-			(xy 179.07 104.14) (xy 189.23 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe1292c-0107-403c-8cff-c0f4aa9be57b")
 	)
 	(hierarchical_label "vrefn"
 		(shape output)
@@ -2514,6 +2564,94 @@
 			(project "esp32_ads1256"
 				(path "/dbf90267-57f9-4f5a-8904-b91a6fafdaf7/fd27ffa8-08fc-490f-b171-3a7361bbf7dd"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:ADR441xRZ")
+		(at 201.93 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eccaea94-28e8-4860-9f4b-f127ab0aa397")
+		(property "Reference" "U8"
+			(at 195.58 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ADR441xRZ"
+			(at 195.58 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 224.282 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adr440_441_443_444_445.pdf"
+			(at 255.524 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5V Voltage Reference, Ultraprecision, Low Noise, SOIC-8"
+			(at 232.664 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4dc6c248-1151-4045-afbe-b2daaab58fc7")
+		)
+		(pin "6"
+			(uuid "7177bb39-ce63-4669-9261-29c8b805591c")
+		)
+		(pin "3"
+			(uuid "ccae6215-fe72-4aff-a499-c1b82bf23c0c")
+		)
+		(pin "4"
+			(uuid "cd182eba-ca87-4456-91ca-3fd227271471")
+		)
+		(pin "5"
+			(uuid "07e2f72f-46bf-4e97-ace7-1e73ec5a74b6")
+		)
+		(pin "7"
+			(uuid "18d3c348-3bde-4c33-9964-1cce7d477681")
+		)
+		(pin "1"
+			(uuid "22657457-fbca-4fb8-8254-104665571813")
+		)
+		(pin "2"
+			(uuid "a7fb874a-2269-4e9f-9949-38d498602055")
+		)
+		(instances
+			(project "esp32_ads1256"
+				(path "/dbf90267-57f9-4f5a-8904-b91a6fafdaf7/fd27ffa8-08fc-490f-b171-3a7361bbf7dd"
+					(reference "U8")
 					(unit 1)
 				)
 			)

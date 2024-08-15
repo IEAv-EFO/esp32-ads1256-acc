@@ -16,7 +16,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-
+*.lck
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -30,3 +30,4 @@ fp-info-cache
 esp32_ads1256-backups/**
 gerber_files/**
 replicate_layout.log
+~esp32_ads1256.kicad_pcb.lck
